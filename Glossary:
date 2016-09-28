@@ -1,0 +1,31 @@
+Glossary:
+
+studentIDs - A vector that contains the ID number associated with each student name.
+
+studentInCourse - A vector that holds how many students are taking a class that is parallel to the courses vector.
+
+coursesPerStudent - A vector that holds how many courses a student is taking that is parallel to the studntIDs vector.
+
+courses - A vector that holds courses and the associated prerequisite classes that is parallel to advancedCourse.
+
+advancedCourse - A vector that holds just base class values.
+
+studentNames - A vector that holds name values of students and is parallel with studentIDs.
+
+getCourses - function that returns the total number of courses in the system.
+
+getStudents - function that returns the total number of students in the system.
+
+checkPrereq - function that returns whether or not a class has a prerequisite class.
+
+enroll - function that adds students and courses to the vectors and increments values in studentInCourse and coursesPerStudent where necessary
+
+courseCheck - function that checks to see if an advanced course is put into the advancedCourse vector
+
+associate - function that sets studentIDs and studentNames parallel
+
+associated - function that checks to see if names and IDs are already associated
+
+concatCourse - function that connects prerequisted courses to their base course
+
+getCourseStudents - function that returns how many students are taking a given course
