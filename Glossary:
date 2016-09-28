@@ -1,5 +1,13 @@
 Glossary:
 
+Student - A student has attributes and takes classes at the university given in this scenario.
+
+Course - Courses are the timeslots when a class is taught. These are attended by students have attributes that interact with students and prereqs.
+
+Prereq - A prereq is a course that is required to take another course. In this implementation, a student will not be allowed to take a course if they have not taken all the prereq courses required.
+
+ID - A student ID is a number that is assocated with every student in order to explicitly differentiate them.
+
 studentIDs - A vector that contains the ID number associated with each student name.
 
 studentInCourse - A vector that holds how many students are taking a class that is parallel to the courses vector.
